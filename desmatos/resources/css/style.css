@@ -1,0 +1,36 @@
+body {
+/* This sets the default font of the body */
+  font-family: 'Helvetica', arial, sans-serif;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+  background-image: url('../img/pattern.jpeg');
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Sets the color of cost to blue */
+strong {
+  color: blue;
+}
+
+/* Targeting h2's via divs to completely seperate content from presentation */
+#brushes h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames h2 {
+    background-color: lightcoral;
+}
+
+#paints h2 {
+    background-color: skyblue;
+}
